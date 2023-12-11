@@ -48,8 +48,8 @@ package main
 import (
 	"flag"
 
+	"github.com/lunyi/gengo2/tree/main/examples/deepcopy-gen/generators"
 	"github.com/spf13/pflag"
-	"k8s.io/gengo/examples/deepcopy-gen/generators"
 	"k8s.io/klog/v2"
 
 	generatorargs "k8s.io/code-generator/cmd/deepcopy-gen/args"
